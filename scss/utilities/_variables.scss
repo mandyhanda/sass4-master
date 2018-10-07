@@ -1,0 +1,45 @@
+//variables-----------------------//
+
+//font-faimly
+$font-stack-primary: 'Raleway', sans-serif;
+
+//project colors
+
+$primary-color:#58e1c1;
+$secondary-color:#51ddfc;
+$white:#fff;
+$text-color:#817c7c;
+$color-text-block: #4c4c4c;
+$success-color:#45db72;
+$error-color: #ee7177;
+$warning-color:#f86c49;
+$info-color:#a384df;
+
+//column colors
+$color-col-12: #83f8df;
+$color-col-8: #fc967a;
+$color-col-7: #f79ea2;
+$color-col-6:#3cb5d6;
+$color-col-5: #77e097;
+$color-col-4: #6ee2fc;
+$color-col-3: #d88df3;
+
+//layout
+
+$max-wid:90%;
+$gutter:10px;
+
+//breakpoints
+$break-s:400px;
+$break-l:1024px;
+
+
+//flex properties
+
+$flex: flex;
+$row: row;
+$col: column;
+$flex-wrap: wrap;
+$just-center: center;
+$just-space-around: space-around;
+$just-space-between: space-between;

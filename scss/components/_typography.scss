@@ -1,0 +1,25 @@
+//para styles
+.card
+{ color:$text-color;
+.headline--primary
+{
+    color: $primary-color;
+}
+    
+}
+//nested rules
+p{
+    font-size:20px;
+a{
+    color: $primary-color;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+}
+.blockquote
+{
+    border-left: 5px solid $primary-color;
+    padding:$gutter;
+    font-size:30px;
+}

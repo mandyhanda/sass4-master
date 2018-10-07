@@ -1,0 +1,76 @@
+@mixin center {
+    max-width: $max-wid;
+    margin:0 auto;
+    text-align: center;
+}
+
+@mixin button_f {
+    width: 100%;
+    padding: 10px 0;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    font-weight: 500;
+    margin: 10px 0;
+    @content;
+}
+@mixin flexbox {
+    display:flex;
+    flex-wrap: wrap;
+    @content;
+}
+
+@mixin desktop {
+    @media(min-width:$break-l){
+        .grid__row
+        {
+            @include flexbox
+            {
+            flex-direction: row;
+            justify-content: $just-space-around;
+            @content;
+        }
+    }
+}
+}
+// @mixin mobile {
+//     @media(min-width:$break-s) {
+//         .grid__row
+// {
+   
+//     @include flexbox
+//     {
+//         font-size: 1.1rem;
+//          margin: 25px 0;
+//         flex-direction: $col;
+// }
+// }
+//     }
+    
+// }
+
+@mixin desk_btn {
+    flex: 1 10%;
+padding: 10px;
+margin: 5px;
+text-align: center;
+margin-bottom: 1em;
+font-size: 1em;
+color: white;
+font-weight: 400;
+text-decoration: none;
+text-transform: uppercase;
+padding: 0.75em 2em;
+border: none;
+border-radius: 0.35em;
+@content;
+}
+@mixin desk_grid {
+    text-align: center;
+    color: #828282;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px;
+    @content;
+}

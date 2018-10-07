@@ -1,0 +1,18 @@
+
+//heading
+
+*{
+    box-sizing: border-box;
+}
+
+    .headline--secondary
+    {
+        flex-basis: 1;
+        padding: $gutter;
+        color: $text-color;
+        font-size:19px;
+        text-align: left;
+        font-weight: 400;
+         margin-top: 50px;
+         margin-bottom: 10px;
+    }

@@ -1,0 +1,63 @@
+//buttons
+.btn--default
+{
+    @include button_f
+    {
+    background-color:$secondary-color;
+    }
+}
+.btn--success
+{
+    @include button_f
+    {
+    background-color:$success-color;
+    }
+}
+.btn--error
+{
+    @include button_f
+    {
+    background-color:$error-color;
+    }
+}
+.btn--warning
+{
+    @include button_f
+    {
+    background-color:$warning-color;
+    }
+}
+.btn--info
+{
+    @include button_f
+    {
+    background-color:$info-color;
+    }
+}
+//desk version
+.btn--default {
+    @include desk_btn{
+    background-color:$primary-color;
+}
+}
+
+.btn--success{
+    @include desk_btn{
+    background-color:$success-color;
+    }
+}
+.btn--error{
+    @include desk_btn{
+    background-color:$error-color;
+    }
+}
+.btn--warning{
+    @include desk_btn{
+    background-color: $warning-color;
+    }
+}
+.btn--info{
+    @include desk_btn{
+    background-color:$info-color;
+    }
+}
